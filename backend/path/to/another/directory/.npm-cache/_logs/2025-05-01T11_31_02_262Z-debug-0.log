@@ -1,0 +1,53 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\kajal\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.3
+2 info using node@v22.11.0
+3 silly config load:file:C:\Users\kajal\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:E:\React\self project react\To-Do List App(Mern)\backend\.npmrc
+5 silly config load:file:C:\Users\kajal\.npmrc
+6 silly config load:file:C:\Users\kajal\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm run dev
+8 verbose argv "run" "dev"
+9 verbose logfile logs-max:10 dir:E:\React\self project react\To-Do List App(Mern)\backend\path\to\another\directory\.npm-cache\_logs\2025-05-01T11_31_02_262Z-
+10 verbose logfile E:\React\self project react\To-Do List App(Mern)\backend\path\to\another\directory\.npm-cache\_logs\2025-05-01T11_31_02_262Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose stack Error: kill EPERM
+13 verbose stack     at ChildProcess.kill (node:internal/child_process:511:26)
+13 verbose stack     at process.handleSignal (C:\Users\kajal\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\run-script\lib\signal-manager.js:14:10)
+13 verbose stack     at process.emit (node:events:518:28)
+14 verbose pkgid backend@1.0.0
+15 error code EPERM
+16 error syscall kill
+17 error path E:\React\self project react\To-Do List App(Mern)\backend
+18 error errno -4048
+19 error Error: kill EPERM
+19 error     at ChildProcess.kill (node:internal/child_process:511:26)
+19 error     at process.handleSignal (C:\Users\kajal\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\run-script\lib\signal-manager.js:14:10)
+19 error     at process.emit (node:events:518:28) {
+19 error   errno: -4048,
+19 error   code: 'EPERM',
+19 error   syscall: 'kill',
+19 error   cmd: 'C:\\WINDOWS\\system32\\cmd.exe',
+19 error   args: [ '/d', '/s', '/c', 'nodemon index' ],
+19 error   stdout: null,
+19 error   stderr: null,
+19 error   event: 'dev',
+19 error   script: 'nodemon index',
+19 error   pkgid: 'backend@1.0.0',
+19 error   path: 'E:\\React\\self project react\\To-Do List App(Mern)\\backend'
+19 error }
+20 error
+20 error The operation was rejected by your operating system.
+20 error It's possible that the file was already in use (by a text editor or antivirus),
+20 error or that you lack permissions to access it.
+20 error
+20 error If you believe this might be a permissions issue, please double-check the
+20 error permissions of the file and its containing directories, or try running
+20 error the command again as root/Administrator.
+21 verbose cwd E:\React\self project react\To-Do List App(Mern)\backend
+22 verbose os Windows_NT 10.0.26100
+23 verbose node v22.11.0
+24 verbose npm  v10.8.3
+25 verbose exit -4048
+26 verbose code -4048
+27 error A complete log of this run can be found in: E:\React\self project react\To-Do List App(Mern)\backend\path\to\another\directory\.npm-cache\_logs\2025-05-01T11_31_02_262Z-debug-0.log
