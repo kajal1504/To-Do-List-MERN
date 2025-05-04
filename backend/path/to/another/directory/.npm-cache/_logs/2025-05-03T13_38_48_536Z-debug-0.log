@@ -7,13 +7,7 @@
 6 silly config load:file:C:\Users\kajal\AppData\Roaming\npm\etc\npmrc
 7 verbose title npm run dev
 8 verbose argv "run" "dev"
-9 verbose logfile logs-max:10 dir:E:\React\self project react\To-Do List App(Mern)\backend\path\to\another\directory\.npm-cache\_logs\2025-04-30T06_37_24_437Z-
-10 verbose logfile E:\React\self project react\To-Do List App(Mern)\backend\path\to\another\directory\.npm-cache\_logs\2025-04-30T06_37_24_437Z-debug-0.log
+9 verbose logfile logs-max:10 dir:E:\React\self project react\To-Do List App(Mern)\backend\path\to\another\directory\.npm-cache\_logs\2025-05-03T13_38_48_536Z-
+10 verbose logfile E:\React\self project react\To-Do List App(Mern)\backend\path\to\another\directory\.npm-cache\_logs\2025-05-03T13_38_48_536Z-debug-0.log
 11 silly logfile start cleaning logs, removing 1 files
 12 silly logfile done cleaning log files
-13 verbose cwd E:\React\self project react\To-Do List App(Mern)\backend
-14 verbose os Windows_NT 10.0.26100
-15 verbose node v22.11.0
-16 verbose npm  v10.8.3
-17 verbose exit 3221225786
-18 verbose code 3221225786
